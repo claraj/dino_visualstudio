@@ -7,7 +7,8 @@
         Dim dinoName As String = Console.ReadLine()
         Dim newDino As Dinosaur = New Dinosaur
         newDino.name = dinoName
-
+        Console.WriteLine("your dinosaur is called" & newDino.name & "and says ")
+        newDino.roar()
     End Sub
 
 End Module
