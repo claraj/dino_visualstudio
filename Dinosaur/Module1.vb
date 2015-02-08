@@ -9,8 +9,7 @@
         newDino.name = dinoName
         Console.WriteLine("your dinosaur is called" & newDino.name & "and says ")
 
-        Console.WriteLine("Give your new dinosaur friend a hug!")
-
+        Console.WriteLine("Stay at a safe distance from your dinosaur!")
         newDino.roar()
 
         Console.ReadKey()
