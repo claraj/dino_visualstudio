@@ -11,6 +11,7 @@
 
         Console.WriteLine("Give your new dinosaur friend a hug!")
         Console.WriteLine("Dinosaurs are really cuddly, right?")
+        Console.WriteLine("Actually, bad idea. Roll back if possible....")
         newDino.roar()
 
         Console.ReadKey()
