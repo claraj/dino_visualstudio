@@ -13,6 +13,14 @@
         Console.WriteLine("they have sharp teeth")
         newDino.roar()
 
+        Console.WriteLine("Lets make another dinosaur. enter new dino name")
+        Dim anothername As String = Console.ReadLine()
+        Dim anotherdino As Dinosaur = New Dinosaur()
+        anotherdino.name = anothername
+        Console.WriteLine("Your new dinosaur is called " & anotherdino.name & " and it says ")
+        anotherdino.roar()
+
+
         Console.ReadKey()
     End Sub
 
