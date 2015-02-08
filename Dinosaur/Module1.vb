@@ -10,7 +10,7 @@
         Console.WriteLine("your dinosaur is called" & newDino.name & "and says ")
 
         Console.WriteLine("Give your new dinosaur friend a hug!")
-
+        Console.WriteLine("Dinosaurs are really cuddly, right?")
         newDino.roar()
 
         Console.ReadKey()
