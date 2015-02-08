@@ -9,6 +9,8 @@
         newDino.name = dinoName
         Console.WriteLine("your dinosaur is called" & newDino.name & "and says ")
         newDino.roar()
+
+        Console.ReadKey()
     End Sub
 
 End Module
