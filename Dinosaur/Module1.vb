@@ -8,6 +8,9 @@
         Dim newDino As Dinosaur = New Dinosaur
         newDino.name = dinoName
         Console.WriteLine("your dinosaur is called" & newDino.name & "and says ")
+
+        Console.WriteLine("Give your new dinosaur friend a hug!")
+
         newDino.roar()
 
         Console.ReadKey()
